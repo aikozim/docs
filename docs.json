@@ -1,55 +1,39 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Lehrerkarten.de Projektplan",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#00c5db",
+    "light": "#00c5db",
+    "dark": "#00c5db"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Projektplan",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Projektstart",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "lehrerkarten/overview",
+              "lehrerkarten/faq",
+              "lehrerkarten/einfuehrung"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Projekt-Phasen",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "lehrerkarten/phase1/index",
+
+              "lehrerkarten/phase2/index"
+
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Referenz & Tools",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "lehrerkarten/links"
             ]
           }
         ]
@@ -58,45 +42,46 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Homepage",
+          "href": "https://lehrerkarten.de",
+          "icon": "cards-blank"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Preise",
+          "href": "https://lehrerkarten.de/pricing",
+          "icon": "euro-sign"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Support",
+          "href": "https://api.whatsapp.com/send/?phone=4915126971037",
+          "icon": "whatsapp"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/dark.png",
+    "dark": "/logo/light.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Zur Plattform",
+        "href": "https://lehrerkarten.de"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Formular erstellen",
+      "href": "https://app.lehrerkarten.de"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://lehrerkarten.de",
+      "reddit": "https://tiktok.com/@lehrerkarten",
+      "instagram": "https://instagram.com/lehrerkarten"
+
     }
   }
 }
