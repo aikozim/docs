@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "Lehrerkarten.de Projektplan",
   "colors": {
     "primary": "#00c5db",
@@ -14,26 +14,26 @@
         "tab": "Projektplan",
         "groups": [
           {
-            "group": "Projektstart",
+            "group": "Lehrerkarten.de Projektplan",
             "pages": [
-              "index",
-              "lehrerkarten/faq",
-              "lehrerkarten/einfuehrung"
+              "index"
             ]
           },
           {
             "group": "Projekt-Phasen",
             "pages": [
+              "lehrerkarten/einfuehrung",
               "lehrerkarten/phase1/index",
-
-              "lehrerkarten/phase2/index"
-
+              "lehrerkarten/phase2/index",
+              "lehrerkarten/phase3/index"
             ]
           },
           {
             "group": "Referenz & Tools",
             "pages": [
+                   "lehrerkarten/faq",
               "lehrerkarten/links"
+                    
             ]
           }
         ]
@@ -45,11 +45,6 @@
           "anchor": "Homepage",
           "href": "https://lehrerkarten.de",
           "icon": "cards-blank"
-        },
-        {
-          "anchor": "Preise",
-          "href": "https://lehrerkarten.de/pricing",
-          "icon": "euro-sign"
         },
         {
           "anchor": "Support",
@@ -64,11 +59,9 @@
     "dark": "/logo/light.png"
   },
   "navbar": {
-
-
     "primary": {
       "type": "button",
-      "label": "Formular erstellen",
+      "label": "Dashboard",
       "href": "https://app.lehrerkarten.de"
     }
   },
